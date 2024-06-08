@@ -1,0 +1,99 @@
+﻿@model RegisterVM
+
+@{
+    ViewData["Title"] = "SignUp";
+    Layout = "_Header";
+}
+
+
+@section css{
+    <link rel="stylesheet" href="~/assets/sass/register.css">
+}
+
+
+<section id="login-area">
+    <div class="container-main">
+        <div class="title">
+            <h3>My account</h3>
+            <div class="home-account">
+                <span>Home</span><span>My account</span>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="left-side-image">
+                <img src="~/assets/images/login-1.png" alt="" />
+                <img src="~/assets/images/login-2.png" alt="" />
+            </div>
+            <div class="register-area">
+                <div class="datas">
+                    <div class="top-login">
+                        <h3>Sign Up Shofy.</h3>
+                        <p>
+                            Already have an account?<a asp-action="SignIn">Sign In</a>
+                        </p>
+                    </div>
+                    <div class="register-icons">
+                        <button class="google">
+                            <span>
+                                <img src="~/assets/icons/google-icon.svg" alt="" />
+                                Sign in with google
+                            </span>
+                        </button>
+                        <button class="fb">
+                            <i class="fa-brands fa-facebook"></i>
+                        </button>
+                        <button class="apple">
+                            <i class="fa-brands fa-apple"></i>
+                        </button>
+                    </div>
+                    <div class="register-part">
+                        <p>or Sign up with <a href="">Email</a></p>
+                    </div>
+                    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                    <div class="user-info">
+                        <form method="post" asp-action="SignUp">
+                            <div class="your-name">
+                                <p>Your Fullname</p>
+                                <input asp-for="FullName" autocomplete="off" />
+                                <span class="text-danger d-block" asp-validation-for="FullName"></span>
+                            </div>
+                            <div class="your-name mt-3">
+                                <p>Your Username</p>
+                                <input asp-for="Username" autocomplete="off" />
+                                <span class="text-danger d-block" asp-validation-for="Username"></span>
+                            </div>
+                            <div class="email mt-3">
+                                <p>Your Email</p>
+                                <input asp-for="Email" autocomplete="off" type="text" />
+                                <span class="text-danger d-block" asp-validation-for="Email"></span>
+                            </div>
+                            <div class="password mt-3">
+                                <p>Password</p>
+                                <input asp-for="Password" type="password" />
+                                <span class="text-danger d-block" asp-validation-for="Password"></span>
+                            </div>
+                            <div class="password mt-3">
+                                <p>Confirm Password</p>
+                                <input asp-for="ConfirmPassword" type="password" />
+                                <span class="text-danger d-block" asp-validation-for="ConfirmPassword"></span>
+                            </div>
+                            <div class="checkbox mt-3 mb-3">
+                                <input type="checkbox" name="" id="" />
+                                <p>I accept the terms of the Service & Privacy Policy.</p>
+                            </div>
+                            <button type="submit">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side-image">
+                <div class="stars">
+                    <img src="~/assets/images/login-3.png" alt="" />
+                </div>
+                <div class="guys">
+                    <img src="~/assets/images/login-4.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

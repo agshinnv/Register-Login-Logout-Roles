@@ -1,0 +1,85 @@
+﻿@model LoginVM
+
+@{
+    ViewData["Title"] = "SignIn";
+    Layout = "~/Views/Shared/_Header.cshtml";
+}
+
+
+@section css {
+    <link rel="stylesheet" href="~/assets/sass/login.css">
+}
+
+<section id="login-area">
+    <div class="container-main">
+        <div class="title">
+            <h3>My account</h3>
+            <div class="home-account">
+                <span>Home</span><span>My account</span>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="left-side-image">
+                <img src="~/assets/images/login-1.png" alt="" />
+                <img src="~/assets/images/login-2.png" alt="" />
+            </div>
+            <div class="register-area">
+                <div class="datas">
+                    <div class="top-login">
+                        <h3>Login to Shofy.</h3>
+                        <p>
+                            Don’t have an account?<a asp-action="SignUp">Create a free account</a>
+                        </p>
+                    </div>
+                    <div class="register-icons">
+                        <button class="google">
+                            <span>
+                                <img src="~/assets/icons/google-icon.svg" alt="" />
+                                Sign in with google
+                            </span>
+                        </button>
+                        <button class="fb">
+                            <i class="fa-brands fa-facebook"></i>
+                        </button>
+                        <button class="apple">
+                            <i class="fa-brands fa-apple"></i>
+                        </button>
+                    </div>
+                    <div class="register-part">
+                        <p>or Sign in with <a href="">Email</a></p>
+                    </div>
+                    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                    <div class="user-info">
+                        <form method="post" asp-action="SignIn">
+                            <div class="email mt-3">
+                                <p>Your Email or Username</p>
+                                <input asp-for="EmailOrUsername" autocomplete="off" />
+                                <span class="text-danger d-block" asp-validation-for="EmailOrUsername"></span>
+                            </div>
+                            <div class="password mt-3">
+                                <p>Password</p>
+                                <input asp-for="Password" autocomplete="off" type="password" />
+                                <span class="text-danger d-block" asp-validation-for="Password"></span>
+                            </div>
+                            <div class="checkbox mt-3 mb-3">
+                                <input type="checkbox" name="" id="" />
+                                <p>Remember me</p>
+                                <a href="">Forgot Password? </a>
+                            </div>
+                            <button type="submit">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side-image">
+                <div class="stars">
+                    <img src="~/assets/images/login-3.png" alt="" />
+                </div>
+                <div class="guys">
+                    <img src="~/assets/images/login-4.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
