@@ -80,7 +80,7 @@ namespace FrontToBack.Controllers
 
             if(existUser is null)
             {
-                existUser = await _userManager.FindByEmailAsync(request.EmailOrUsername);
+                existUser = await _userManager.FindByNameAsync(request.EmailOrUsername);
             }
 
             if(existUser is null)

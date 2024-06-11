@@ -53,7 +53,7 @@
                         <form method="post" asp-action="SignIn">
                             <div class="email mt-3">
                                 <p>Your Email or Username</p>
-                                <input asp-for="EmailOrUsername" autocomplete="off" />
+                                <input type="text" asp-for="EmailOrUsername" autocomplete="off" />
                                 <span class="text-danger d-block" asp-validation-for="EmailOrUsername"></span>
                             </div>
                             <div class="password mt-3">

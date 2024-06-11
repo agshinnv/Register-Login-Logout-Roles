@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Login, Roles\\FrontToBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\login, roles\\fronttoback\\fronttoback\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\login, roles\\fronttoback\\fronttoback\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +26,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Login, Roles\\FrontToBack\\FrontToBack\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FrontToBack\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Login, Roles\\FrontToBack\\FrontToBack\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FrontToBack\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAEYAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T23:08:08.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SignIn.cshtml",
               "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Login, Roles\\FrontToBack\\FrontToBack\\Views\\Account\\SignIn.cshtml",
               "RelativeDocumentMoniker": "FrontToBack\\Views\\Account\\SignIn.cshtml",
               "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Login, Roles\\FrontToBack\\FrontToBack\\Views\\Account\\SignIn.cshtml",
               "RelativeToolTip": "FrontToBack\\Views\\Account\\SignIn.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAEYAAAAaAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADgAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T23:06:00.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T23:06:00.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Login, Roles\\FrontToBack\\FrontToBack\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "FrontToBack\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Login, Roles\\FrontToBack\\FrontToBack\\Controllers\\AccountController.cs",
               "RelativeToolTip": "FrontToBack\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwHAAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T23:03:51.599Z",
               "EditorCaption": ""

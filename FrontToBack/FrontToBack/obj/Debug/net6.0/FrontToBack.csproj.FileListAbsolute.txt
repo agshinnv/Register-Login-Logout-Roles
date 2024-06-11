@@ -503,3 +503,4 @@ C:\Users\Agshin\Desktop\FullStackDeveloper\Backend\Asp.net\Login, Roles\FrontToB
 C:\Users\Agshin\Desktop\FullStackDeveloper\Backend\Asp.net\Login, Roles\FrontToBack\FrontToBack\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Agshin\Desktop\FullStackDeveloper\Backend\Asp.net\Login, Roles\FrontToBack\FrontToBack\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Agshin\Desktop\FullStackDeveloper\Backend\Asp.net\Login, Roles\FrontToBack\FrontToBack\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Agshin\Desktop\FullStackDeveloper\Backend\Asp.net\Login, Roles\FrontToBack\FrontToBack\obj\Debug\net6.0\FrontToBack.sourcelink.json
